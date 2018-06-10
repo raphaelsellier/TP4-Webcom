@@ -1,0 +1,31 @@
+.wrapper{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.items{
+	display: flex;
+	justify-content: space-between;
+	flex: wrap;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.item{
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+.item-top{
+	align-self: flex-start;
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+.item-bot{
+	align-self: flex-end;
+	width: 200px;
+	height: 200px;
+	background: red;
+}
